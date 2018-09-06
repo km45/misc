@@ -1,0 +1,7 @@
+# node
+/node_modules
+/yarn.lock
+
+# generated files
+/old.json
+/new.json
