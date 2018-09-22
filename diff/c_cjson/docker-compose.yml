@@ -1,0 +1,13 @@
+---
+
+version: "3"
+
+services:
+  develop:
+    build:
+      context: .
+    working_dir: /usr/src/app
+    volumes:
+      - ${PWD}:/usr/src/app
+      - ${PWD}/../old.json:/usr/src/app/old.json
+      - ${PWD}/../new.json:/usr/src/app/new.json
