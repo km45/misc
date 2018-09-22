@@ -5,3 +5,6 @@
 # generated files
 /old.json
 /new.json
+
+# vscode
+/.vscode
