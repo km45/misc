@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "diff-json-structure": "^1.0.8"
+  }
+}
